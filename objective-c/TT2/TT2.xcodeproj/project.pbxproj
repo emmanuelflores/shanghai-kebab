@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD5CD2DF14767006008002A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5CD2DE14767006008002A8 /* UIKit.framework */; };
+		BD5CD2E114767006008002A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5CD2E014767006008002A8 /* Foundation.framework */; };
+		BD5CD2E314767006008002A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5CD2E214767006008002A8 /* CoreGraphics.framework */; };
+		BD5CD2E914767006008002A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD5CD2E714767006008002A8 /* InfoPlist.strings */; };
+		BD5CD2EB14767006008002A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD2EA14767006008002A8 /* main.m */; };
+		BD5CD2EF14767006008002A8 /* TT2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD2EE14767006008002A8 /* TT2AppDelegate.m */; };
+		BD5CD2F214767006008002A8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD5CD2F014767006008002A8 /* MainWindow.xib */; };
+		BD9CA1F21476709A002CC223 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9CA1F01476709A002CC223 /* ItemsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD5CD2DA14767006008002A8 /* TT2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TT2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5CD2DE14767006008002A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD5CD2E014767006008002A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD5CD2E214767006008002A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD5CD2E614767006008002A8 /* TT2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TT2-Info.plist"; sourceTree = "<group>"; };
+		BD5CD2E814767006008002A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD5CD2EA14767006008002A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD5CD2EC14767006008002A8 /* TT2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TT2-Prefix.pch"; sourceTree = "<group>"; };
+		BD5CD2ED14767006008002A8 /* TT2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TT2AppDelegate.h; sourceTree = "<group>"; };
+		BD5CD2EE14767006008002A8 /* TT2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TT2AppDelegate.m; sourceTree = "<group>"; };
+		BD5CD2F114767006008002A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BD9CA1EF1476709A002CC223 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		BD9CA1F01476709A002CC223 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5CD2D714767006008002A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5CD2DF14767006008002A8 /* UIKit.framework in Frameworks */,
+				BD5CD2E114767006008002A8 /* Foundation.framework in Frameworks */,
+				BD5CD2E314767006008002A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD5CD2CF14767006008002A8 = {
+			isa = PBXGroup;
+			children = (
+				BD5CD2E414767006008002A8 /* TT2 */,
+				BD5CD2DD14767006008002A8 /* Frameworks */,
+				BD5CD2DB14767006008002A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD5CD2DB14767006008002A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD2DA14767006008002A8 /* TT2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5CD2DD14767006008002A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD2DE14767006008002A8 /* UIKit.framework */,
+				BD5CD2E014767006008002A8 /* Foundation.framework */,
+				BD5CD2E214767006008002A8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD5CD2E414767006008002A8 /* TT2 */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD2ED14767006008002A8 /* TT2AppDelegate.h */,
+				BD5CD2EE14767006008002A8 /* TT2AppDelegate.m */,
+				BD5CD2F014767006008002A8 /* MainWindow.xib */,
+				BD5CD2E514767006008002A8 /* Supporting Files */,
+				BD9CA1EF1476709A002CC223 /* ItemsViewController.h */,
+				BD9CA1F01476709A002CC223 /* ItemsViewController.m */,
+			);
+			path = TT2;
+			sourceTree = "<group>";
+		};
+		BD5CD2E514767006008002A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD2E614767006008002A8 /* TT2-Info.plist */,
+				BD5CD2E714767006008002A8 /* InfoPlist.strings */,
+				BD5CD2EA14767006008002A8 /* main.m */,
+				BD5CD2EC14767006008002A8 /* TT2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD5CD2D914767006008002A8 /* TT2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5CD2F514767006008002A8 /* Build configuration list for PBXNativeTarget "TT2" */;
+			buildPhases = (
+				BD5CD2D614767006008002A8 /* Sources */,
+				BD5CD2D714767006008002A8 /* Frameworks */,
+				BD5CD2D814767006008002A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TT2;
+			productName = TT2;
+			productReference = BD5CD2DA14767006008002A8 /* TT2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD5CD2D114767006008002A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BD5CD2D414767006008002A8 /* Build configuration list for PBXProject "TT2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD5CD2CF14767006008002A8;
+			productRefGroup = BD5CD2DB14767006008002A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5CD2D914767006008002A8 /* TT2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD5CD2D814767006008002A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5CD2E914767006008002A8 /* InfoPlist.strings in Resources */,
+				BD5CD2F214767006008002A8 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD5CD2D614767006008002A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5CD2EB14767006008002A8 /* main.m in Sources */,
+				BD5CD2EF14767006008002A8 /* TT2AppDelegate.m in Sources */,
+				BD9CA1F21476709A002CC223 /* ItemsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD5CD2E714767006008002A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5CD2E814767006008002A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD5CD2F014767006008002A8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5CD2F114767006008002A8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD5CD2F314767006008002A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD5CD2F414767006008002A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD5CD2F614767006008002A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TT2/TT2-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TT2/TT2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD5CD2F714767006008002A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TT2/TT2-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TT2/TT2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD5CD2D414767006008002A8 /* Build configuration list for PBXProject "TT2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5CD2F314767006008002A8 /* Debug */,
+				BD5CD2F414767006008002A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5CD2F514767006008002A8 /* Build configuration list for PBXNativeTarget "TT2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5CD2F614767006008002A8 /* Debug */,
+				BD5CD2F714767006008002A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD5CD2D114767006008002A8 /* Project object */;
+}
