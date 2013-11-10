@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ -861.0, 114.0, 1388.0, 884.0 ],
+		"rect" : [ -1176.0, 118.0, 1388.0, 884.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 20.0,
@@ -42,7 +42,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ -1793.0, 412.0, 986.0, 597.0 ],
+						"rect" : [ -1425.0, 401.0, 986.0, 597.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 20.0,
