@@ -1,14 +1,25 @@
 Wurm testWurm;
+int amount = 20;
+Wurm[] w = new Wurm[amount];
 
 void setup() {
   frameRate(30);
   size(450,300);
   background(255);
-  testWurm = new Wurm(100, 100);
+  //testWurm = new Wurm(100, 100);
+  
+  for(int i=0;i<amount;i++){
+    //println(i);
+    w[i] = new Wurm(random(width),random(height));
+  }
 }
 
 void draw(){
-  testWurm.drawWurm();
+  //testWurm.drawWurm();
+  
+  for(int i=0;i<amount;i++){
+   w[i].drawWurm(); 
+  }
   
 }
 
