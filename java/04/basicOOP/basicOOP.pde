@@ -6,6 +6,15 @@ void setup() {
   //person1.giveMeYourHeight();
   println(person1.loseWeight(10));
   person1.giveMeYourWeight();
+  person1.gainWeight(100);
+  person1.giveMeYourWeight();
+  
+  Person person2 = new Person("Longer+Faster",175,66);
+  person2.giveMeYourWeight();
+  
+  Person person3 = new Person("Starry-ry-ry",176,50);
+  person3.giveMeYourName();
+  
 }
 
 
@@ -32,14 +41,19 @@ class Person {
   void giveMeYourHeight() {
     println(hei);
   }
-  
+
   void giveMeYourWeight() {
     println(weight);
   }
-  
-  int loseWeight(int value){
-   weight = weight - value;
+
+  int loseWeight(int value) {
+    weight = weight - value;
     return  weight;
+  }
+  
+  int gainWeight(int value){
+      weight = weight + value;
+      return weight;
   }
 }
 
