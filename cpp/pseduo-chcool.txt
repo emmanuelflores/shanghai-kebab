@@ -1,0 +1,44 @@
+#include <iostream>
+#include "ofMain.h"
+
+using namespace std;
+
+//name, ffood, fsport
+class ChineseCool{
+public:
+	String name, ffood, fsport;
+	
+	ChineseCool(_name,_ffood, _fsport):
+	name(_name),ffood(_ffood),fsport(_fsport)
+	{
+		
+	}
+	
+	~ChineseCool(){}
+	
+	
+	void sayMyName(){
+		cout<<"my name is %s "<<name<<endl;
+	}
+	
+	void sayMyFood(){
+		
+		cout<<ffood<<endl;
+	}
+	
+	void updateFood(sting newFood){
+		ffood = newFood;
+	}
+};
+
+
+testApp::setup(){
+	
+	ChineseCool Minmin= ChineseCool(Min,strawBB,sofaSurfin);
+	ChineseCool butterfly = ChineseCool(butterfly,waterM,flyHigh); 
+	ChineseCool yinan = ChineseCool(yinan, chocochoco, swimming);
+	
+	butterfly.updateFood(noodles);
+	butterfly.sayMyFood();
+	
+}
