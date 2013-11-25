@@ -1,0 +1,76 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    background-color: #d9a88f;
+    margin: 20px;
+    padding: 0;
+}
+
+/* This is a comment*/
+
+p {
+    line-height: 21px;
+}
+
+h1 {
+    color: #fff;
+    background-color: #6a7d8e;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #c1d2d6;
+}
+
+h2 {
+    color: white;
+    background-color: #9baf8e;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 2px;
+    padding-left: 14px;
+}
+
+h3 {
+    color: white;
+    font-size: 1.25em;
+}
+
+img {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ccc;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+li {
+    color: #f9d3a5;
+    font-style: italic;
+}
+
+table {
+    background-color: #ccc;
+}
+
+
+
+/*
+Predefined color names:
+aqua, black, blue, fuchsia, gray, green,
+lime, maroon, navy, olive, orange, purple, 
+red, silver, teal, white, and yellow.
+*/
