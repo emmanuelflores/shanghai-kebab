@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>pseudo classes</title>
+		<style>
+
+			p:hover{
+				background-color: red;
+			}
+
+			h1:first-letter{
+				font-weight: 100;
+			}
+			#foc:focus{
+				background-color: #c9c3ad;
+			}
+			#dis:disabled{
+				background-color: #981111;
+			}
+			span { background: red; }
+			#bef:before {
+				content: "#";
+			}
+			#aft:after {
+				content: ".";
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<h1>this is a header</h1>
+		<a href="http://www.apple.com">go to apple</a>
+		<p>this is a test</p>
+		<input id="foc">format</input>
+		<br>
+		<input id="dis"disabled>you cannot write</input>
+		<br>
+		<br>
+		<p><input type=checkbox> <span>Everything</span></p>
+		
+	</body>
+
+</html>
