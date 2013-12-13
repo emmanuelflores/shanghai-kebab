@@ -5,13 +5,17 @@
 	<head>
 		<title>pseudo classes</title>
 		<style>
-
-			p:hover{
+			body{
+				background-color: #d8d8ed;
+			}
+			p.hov:hover{
 				background-color: red;
 			}
 
 			h1:first-letter{
 				font-weight: 100;
+				color:#ff0000;
+				font-variant:small-caps;
 			}
 			#foc:focus{
 				background-color: #c9c3ad;
@@ -20,11 +24,17 @@
 				background-color: #981111;
 			}
 			span { background: red; }
-			#bef:before {
-				content: "#";
+			p.box {
+				width: 300px;
+				border: solid 4px black;
+				padding: 20px;
 			}
-			#aft:after {
-				content: ".";
+			/*The ":before" pseudo-element can be used to insert some content before the content of an element.*/
+			p.box:before {
+				content: "#";
+				border: solid 1px black;
+				padding: 2px;
+				margin: 0 10px 0 0;
 			}
 		</style>
 
@@ -40,6 +50,8 @@
 		<br>
 		<br>
 		<p><input type=checkbox> <span>Everything</span></p>
+		<br>
+		<p class="box">Other content.</p>
 		
 	</body>
 
