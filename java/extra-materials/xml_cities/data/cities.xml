@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<cities>
+	<city>
+		<name>Shanghai</name>
+		<coordinates n="31.12f" e="121.30f"/> 
+		<pop>23,710,000</pop>
+	</city>
+	
+	<city>
+		<name>Tokyo</name>
+		<coordinates n="35.41f" e="139.40f"/> 
+		<pop>35,682,460</pop>
+	</city>
+	
+	<city>
+		<name>Seoul</name>
+		<coordinates n="37.33f" e="126.58f"/> 
+		<pop>25,620,000</pop>
+	</city>
+	
+</cities>
